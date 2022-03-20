@@ -1,0 +1,34 @@
+/* css gives style to ra Html 
+css- cascading style sheets 
+CSS is used to give style to our web pages 
+css is used to make websites responsice 
+HTML is used as a Structure a website 
+/* CSS takes the responsibility of design  */
+
+/* Give all the responsibility of style to css dont add it into HTML  */
+/* Always make sure skeleton is a HTML  */
+
+/* 
+
+CSS Syntax : 
+Selector (the tag name)  { Colour : Blue ;}
+eg: p{ color: blue;}
+
+Group of selectors { 
+  backgroud-color : red;
+  border-radius : 3px
+}
+
+Markup- html code 
+
+three ways to add css to the markup 
+1. Inline css : css is added to the elements directly using style attributes. 
+2. Internal Css : css is kept inside the head tags in style tags 
+3. External Css : having sepereate CSS file in .css style sheet 
+
+*/
+p{
+  background-color: yellow;
+}
+
+

@@ -1,0 +1,10 @@
+What is flexbox? 
+
+- Flexbox is a one dimentional layout method for laying out items in rows and columns. 
+- CSS flexbox is a better way to align items into a container 
+- Flexbox = Flexible + box. 
+
+ We have, 
+ Flex container - Only one container can have multiple flex items
+ - Horizontally things are called as main 
+ - and vertically things are called as cross

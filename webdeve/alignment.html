@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alignment </title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+  <style>
+
+    *{
+box-sizing: border-box;
+    }
+    body{
+      font-family:'ubuntu', sans-serif;
+    }
+
+    .container{
+      width: 900px;
+      border: 3px solid rgb(85, 7, 85);
+      margin: 40px auto; 
+      background-color: sandybrown;
+      /* margin auto - is making center a element.  */
+    }
+    .item{
+      border: 3px solid grey;
+      margin: 12px 3px;
+      padding: 12px 3px;
+      background-color: rgb(214, 214, 125);
+    }
+
+    #fruit{
+      float: right;
+      width: 48%;
+    }
+
+    #computer{
+      
+      float: left;
+      width: 48%;
+    }
+
+    #station{
+      
+      /* float: left; */
+      /* clear: left; */
+      clear: both;
+      width: 100%;
+    }
+    p,h3{
+      text-align: justify;
+      /* left right center justify  */
+
+    }
+
+    h1{
+      margin: 23px auto;
+      width: 455px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+  <h1>
+    WELCOME TO MY STORE 
+  </h1>
+
+    <div id="fruit" class="item">
+      <h3>Fruits</h3>
+        <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ullam nam alias obcaecati vero magni? Animi tempora eum laborum iusto illo, aperiam, facilis aliquid est exercitationem quae velit commodi explicabo?</p>
+    </div>
+    
+    <div id="computer" class="item">
+      <h3>Fruits</h3>
+        <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ullam nam alias obcaecati vero magni? Animi tempora eum laborum iusto illo, aperiam, facilis aliquid est exercitationem quae velit commodi explicabo?</p>
+    </div>
+    
+    <div id="station" class="item">
+      <h3>Fruits</h3>
+        <p id="stationpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ullam nam alias obcaecati vero magni? Animi tempora eum laborum iusto illo, aperiam, facilis aliquid est exercitationem quae velit commodi explicabo?</p>
+    </div>
+    
+  </div>
+</body>
+</html>

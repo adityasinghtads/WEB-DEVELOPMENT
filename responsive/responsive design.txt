@@ -1,0 +1,14 @@
+ What is responsive design?
+
+ - endless new resolutions and devices are diffivult to support separately for a web developer. 
+ - Adapt for all devives. 
+ - It is a necessity and not a luxury anymore. 
+
+
+ Various wways to acheive responsive fdesign:
+ - setting up viewport - generally we get this from the boilerplate of the VS code 
+ - use max width and max height 
+ - Using CSS media Queries 
+ - using rem.vh/vw unit over pixels. 
+
+ 

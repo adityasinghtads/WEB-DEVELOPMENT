@@ -1,0 +1,14 @@
+Selectors in css. 
+
+Css selectors are used fnd element and whose property will be set. 
+
+Selector { property : value; }
+
+this is the syntax for the CSS styling thing.
+ 
+Types of basic CSS selectors:
+- CSS element selector 
+- CSS id selector
+- CSS class selector 
+- The CSS grouping selector 
+
