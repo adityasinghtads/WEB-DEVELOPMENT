@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>More on Selectors.</title>
+  <style>
+    h1 {
+      text-align: center;
+      color: black;
+      background-color: wheat;
+      font-weight: bold;
+    }
+
+    /* div > p this means then p should be the direct child of div  */
+    /* if p is contained by any li which is contained by div  */
+    div li p {
+
+    }
+
+    div > p{
+      color: yellow;
+      font-weight: bold;
+    }
+
+    /* if p is right after div or p is the next siblings of div  */
+    
+    div + p{
+      color: wheat;
+      background-color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>
+    THIS IS MORE ON SELECTORS
+  </h1>
+  <div class="container">
+
+    <div class="row">
+      <p>this is a paragraph. </p>
+    </div>
+    <p>This is another paragraph</p>
+  </div>
+  <p>this is outer most paragraph.</p>
+</body>
+
+</html>
