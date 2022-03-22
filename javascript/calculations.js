@@ -63,9 +63,7 @@ var myString = "First line \n \t Second line \n third line"
 console.log(myString)
 
 // Concatenating strings with plus operators. 
-
 var ourStr = "I come first " + "I come second";
-
 var ourstring = "I come first ";
 ourstring += "I come second"; 
 
@@ -77,9 +75,61 @@ console.log(myLast);
 // length of string 
 var firstNameLength = 0;
 var firstName = "Aditya Singh"
-
 firstNameLength = firstName.length;
 console.log(firstNameLength);
+
+// Bracket Notations for the specific leter of a string 
+var firstLetter = ""
+var firstname = "Aditya Dhanraj "
+var lastletter = ""
+firstLetter = firstname[0]
+console.log(firstLetter)
+lastletter = firstname[firstname.length -1]
+console.log(lastletter)
+var thirdtolastletter = firstname[firstname.length - 3]
+console.log(thirdtolastletter)
+
+// note: Java Strict start the count from Zero 0 
+
+/*
+Strings are immutable... Cant be changed once created.. 
+*/
+
+
+
+// worldBlanks - function changing of words.. 
+function worldBlanks(myNoun, myAdjective, myVerb, myAdverb){
+  var result ="";
+  result += "the " + myAdjective + " " + myNoun + " " + myVerb + " to the store " + myAdverb;
+  return result;
+}
+console.log(worldBlanks("dog", "big", "ran", "quickly"));
+console.log(worldBlanks("bike", "slow", "flew", "slowly"));
+
+
+// Arrays in Javascript 
+var ourArray = ["John", 23];
+var array = ["Aditya ", 1]; 
+
+//Nested Array 
+var ourArray = [[" the universe", 23], ["Everthing"], 1010];
+
+//Arrayusing data values.. 
+var ourdata = [50,60,70]
+var mydata = ourdata[0];
+console.log(mydata)
+
+//Modify array data with indexes. 
+var ourData = [5,6,7]
+ourData[1] = 4;
+console.log(mydata) // here the output will be [5,4,7]
+
+//accessing multidimentional arrays with indexes. 
+var mArray = [[1,2,3], [4,5,6], [7,8,9],[[10,11,12], 13, 14]];
+var mData = mArray[0][0]
+console.log(mData)
+
+
 
 
 

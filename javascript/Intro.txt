@@ -1,0 +1,8 @@
+- Javascript is a client side scripting language 
+It isused to make the web pages alive. 
+
+
+High Level interpreted programming language  ( Scripting language )
+ECMA script 
+Runs on client side browser as well as server node JS 
+

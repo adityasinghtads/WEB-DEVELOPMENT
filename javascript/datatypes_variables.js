@@ -4,6 +4,7 @@
 /*
 
 - We can use the semi colon at the end or even dont use it, it is fine... 
+- variable names are case sensitive, as JS need the same same name to call. 
 
 */ 
 
@@ -22,5 +23,15 @@ a = 7; // assigning the value oth variable a
 b = a; 
 
 console.log(a)
+
+// Variables names are case sentitive.
+// Declations  
+var ADI;
+var SIN; 
+// Assignments 
+adi = 10;
+sin = 15;
+// in this casr, this not same. 
+
 
 
